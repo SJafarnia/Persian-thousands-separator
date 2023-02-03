@@ -34,7 +34,7 @@ def k_separator(num, lang: str) -> str:
 
         separated_num = "".join(map(str, unreversed_list))
 
-        def Transform(number):
+        def transform(number):
             if lang == "fa":
                 dic = {
                     "0": '۰',
@@ -61,7 +61,7 @@ def k_separator(num, lang: str) -> str:
                     "8": '٨',
                     "9": '۹',
                 }
-            elif lang == None or not lang:
+            elif lang is None or not lang:
                 separated_num = f"{int(num):,}"
                 return str(separated_num)
 
@@ -74,7 +74,7 @@ def k_separator(num, lang: str) -> str:
 
             return "".join(target)
 
-        return str(Transform(separated_num))
+        return str(transform(separated_num))
 
     separated_num = f"{int(num):,}"
     return str(separated_num)

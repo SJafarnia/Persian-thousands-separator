@@ -7,9 +7,9 @@ filter example :
 
 {% load thousands("or your custom template filters file name") %}
 
-{{ produc.price|separator:"fa" }}
+{{ product.price|separator:"fa" }}
 
-{{ produc.price|separator:"ar" }}
+{{ product.price|separator:"ar" }}
 
 the function takes 2 arguments:
 

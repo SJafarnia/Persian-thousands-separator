@@ -1,6 +1,6 @@
-# Thousands-separator
+# 3Digits Group Separator
 
-Script for switching English numbers to Persian/Arabic numbers and separates them by thousands (with commas).
+Script for switching English numbers to Persian/Arabic numbers and separates them by 3 digits groups (with commas).
 
 it is created as a Django template filter but you can just use the function anywhere you need.
 
@@ -23,5 +23,5 @@ num: input number
 lang (str): target language ('fa' for Persian, 'ar' for Arabic, None for just returning the input number separated by thousands).
 ```
 ```bash
-returns: str: a string of the input number separated by thousands and translated to target language.
+returns: str: a string of the input number separated by 3 digits groups and translated to target language.
 ```

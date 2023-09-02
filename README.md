@@ -1,17 +1,20 @@
-thousands-separator
+# Thousands-separator
+
 Script for switching English numbers to Persian/Arabic numbers and separates them by thousands (with commas).
 
 it is created as a Django template filter but you can just use the function anywhere you need.
 
-filter example :
+## filter example 
 
+```bash
 {% load thousands("or your custom template filters file name") %}
 
 {{ product.price|separator:"fa" }}
 
 {{ product.price|separator:"ar" }}
+```
 
-the function takes 2 arguments:
+This function takes 2 arguments:
 
 num: input number
 

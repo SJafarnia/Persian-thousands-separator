@@ -1,4 +1,4 @@
-# 3Digits Group Separator
+# Thousands Separator
 
 Script for switching English numbers to Persian/Arabic numbers and separate thousands with commas.
 

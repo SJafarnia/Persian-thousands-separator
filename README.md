@@ -1,6 +1,6 @@
 # 3Digits Group Separator
 
-Script for switching English numbers to Persian/Arabic numbers and separates them by 3 digits groups (with commas).
+Script for switching English numbers to Persian/Arabic numbers and separate thousands with commas.
 
 it is created as a Django template filter but you can just use the function anywhere you need.
 
